@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>Leave Your Feedback</h2>
+        <div class="feedback-options">
+            <button class="feedback-option">Excellent</button>
+            <button class="feedback-option">Good</button>
+            <button class="feedback-option">Average</button>
+            <button class="feedback-option">Poor</button>
+        </div>
+        <button id="send-feedback" disabled>Send Feedback</button>
+        <div id="confirmation" class="confirmation hidden">
+            <p>Thank you!</p>
+            
+            <p id="selected-feedback"></p>
+            <p>We'll use your feedback to improve our customer support.</p>
+            <button id="new-feedback">Give New Feedback</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
